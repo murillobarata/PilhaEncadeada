@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>
+            Pilha Encadeada
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="pilha.js"></script>
+    </head>
+
+    <body>
+
+        <div class="header light-blue lighten-5">
+            Pilha Encadeada
+        </div>
+
+        <div class="row padding-5">
+            
+            <div class="col s4 center promo">
+                <i class="material-icons">battery_full</i>
+                <p class="promo-caption">O que é?</p>
+                <p>
+                    A Pilha consiste em uma estrutura de dados FILO, ou seja,
+                    First In, Last Out. O primeiro a entrar é o último a sair.
+                </p>
+            </div>
+            <div class="col s4 center promo">
+                <i class="material-icons">add_circle</i>
+                <p class="promo-caption">Inserir</p>
+                <p>
+                    A inserção na Pilha é feita sempre no final, ou, no topo,
+                    termo mais utilizado.
+                </p>
+            </div>
+            <div class="col s4 center promo">
+                <i class="material-icons">remove_circle</i>
+                <p class="promo-caption">Remover</p>
+                <p>
+                    A remoção também é sempre feita no topo, obecendo, assim,
+                    a regra FILO.
+                </p>
+            </div>
+        
+        </div>
+
+        <div class="div-buttons">
+            <a onclick="inserir()" class="waves-effect waves-light btn-large teal lighten-2 mr-5  ">Inserir</a>
+            <a onclick="remover()" class="waves-effect waves-light btn-large red lighten-2">Remover</a>
+        </div>
+
+        <div id="pilha" class="pilha">
+
+            <!-- <div class="pilha-no">
+                10
+            </div>
+            <div class="pilha-no">
+                10
+            </div>
+            <div class="pilha-no">
+                10
+            </div> -->
+
+        </div>
+
+        <!-- <div class="fixed-action-btn">
+            <a class="waves-effect waves-light btn-floating btn-large btn modal-trigger blue darken-4 " href="#modal1">
+                <i class="large material-icons">info_outline</i>
+            </a>
+        </div> -->
+
+         <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+            <h4>Olá!</h4>
+            <p>Essa página foi feita pelo professor Murillo Barata Rodrigues, para contribuir com o seu aprendizado!</p>
+            </div>
+            <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
+            </div>
+        </div>
+
+    </body>
+
+</html>
